@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{7FA87340-B0BA-4C05-ADF5-074C71E460A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsekMeterReadingWebApiTests", "EnsekMeterReadingWebApiTests\EnsekMeterReadingWebApiTests.csproj", "{5C279DCA-C5D3-43AE-A0A2-14B3BBDB3BD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FA87340-B0BA-4C05-ADF5-074C71E460A0} = {7FA87340-B0BA-4C05-ADF5-074C71E460A0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FA87340-B0BA-4C05-ADF5-074C71E460A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA87340-B0BA-4C05-ADF5-074C71E460A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA87340-B0BA-4C05-ADF5-074C71E460A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA87340-B0BA-4C05-ADF5-074C71E460A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C279DCA-C5D3-43AE-A0A2-14B3BBDB3BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C279DCA-C5D3-43AE-A0A2-14B3BBDB3BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C279DCA-C5D3-43AE-A0A2-14B3BBDB3BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C279DCA-C5D3-43AE-A0A2-14B3BBDB3BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A003100-6EC4-4E91-894D-4135FA520748}
+	EndGlobalSection
+EndGlobal
