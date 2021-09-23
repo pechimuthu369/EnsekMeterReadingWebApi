@@ -101,7 +101,11 @@ namespace WebApplication1.Controllers
                               where a.AccountId == b.AccountId
                               select a;
 
+<<<<<<< HEAD
                 // insert into sqlite3
+=======
+                // insert into sqlite
+>>>>>>> 9b00bd860ae4c940fc1b743f0fee2adefa9da845
                 this.SaveMeterReading(newList.ToList());
             }
 
